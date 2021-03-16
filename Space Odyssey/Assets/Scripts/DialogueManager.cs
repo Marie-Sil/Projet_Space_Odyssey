@@ -82,7 +82,7 @@ public class DialogueManager : MonoBehaviour
             GameObject character = GameObject.Find(characterName);
 
             SpriteRenderer currSprite = character.GetComponent<SpriteRenderer>();
-            currSprite.sprite = character.GetComponent<Character>().characterPoses[0];
+            currSprite.sprite = character.GetComponent<Character>().characterImage;
         }
     }
 

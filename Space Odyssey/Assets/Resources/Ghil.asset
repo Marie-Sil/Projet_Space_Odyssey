@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78b3fd9154634ebdb8c8a48960b9a16a, type: 3}
+  m_Name: Ghil
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - BaseNodeGUID: b3158a4e-1f2e-4f35-bf2e-c200bb432e75
+    PortName: Next
+    TargetNodeGUID: 33d6842b-2240-4055-a072-d93ad3b07af0
+  - BaseNodeGUID: 33d6842b-2240-4055-a072-d93ad3b07af0
+    PortName: J'ai besoin d'info
+    TargetNodeGUID: 8c0fd7d5-0ad5-47dc-a35c-444be01178a7
+  DialogueNodeData:
+  - NodeGUID: 33d6842b-2240-4055-a072-d93ad3b07af0
+    DialogueText: Bonjour et bienvenue, en quoi puis-je vous aider ?
+    Position: {x: 300, y: 192}
+  - NodeGUID: 8c0fd7d5-0ad5-47dc-a35c-444be01178a7
+    DialogueText: Tenez ! Voici vos info
+    Position: {x: 814, y: 248.00002}
+  ExposedProperties: []
+  CommentBlockData: []
