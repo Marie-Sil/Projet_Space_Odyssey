@@ -56,11 +56,11 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\NodeBasedDialogueSystem\com.subtegral.dialoguesystem\Runtime\NodeLinkData.cs" />
-    <Compile Include="Assets\NodeBasedDialogueSystem\com.subtegral.dialoguesystem\Runtime\DialogueNodeData.cs" />
     <Compile Include="Assets\NodeBasedDialogueSystem\com.subtegral.dialoguesystem\Runtime\ExposedProperty.cs" />
+    <Compile Include="Assets\NodeBasedDialogueSystem\com.subtegral.dialoguesystem\Runtime\DialogueNodeData.cs" />
     <Compile Include="Assets\NodeBasedDialogueSystem\com.subtegral.dialoguesystem\Runtime\CommentBlockData.cs" />
     <Compile Include="Assets\NodeBasedDialogueSystem\com.subtegral.dialoguesystem\Runtime\DialogueContainer.cs" />
+    <Compile Include="Assets\NodeBasedDialogueSystem\com.subtegral.dialoguesystem\Runtime\NodeLinkData.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\NodeBasedDialogueSystem\com.subtegral.dialoguesystem\Runtime\Subtegral.DialogueSystem.Runtime.asmdef" />
