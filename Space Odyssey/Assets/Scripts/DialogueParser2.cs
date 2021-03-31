@@ -7,20 +7,20 @@ using UnityEngine;
 using UnityEngine.UI;
 using Subtegral.DialogueSystem.DataContainers;
 
-    public class DialogueParser2 : MonoBehaviour
+public class DialogueParser2 : MonoBehaviour
+{
+    [SerializeField] public DialogueContainer dialogue;
+    [SerializeField] public Text dialogueText;
+    [SerializeField] public Button choicePrefab;
+    [SerializeField] public Transform buttonContainer;
+
+    public void Start()
     {
-        [SerializeField] public DialogueContainer dialogue;
-        [SerializeField] public Text dialogueText;
-        [SerializeField] public Button choicePrefab;
-        [SerializeField] public Transform buttonContainer;
+        var narrativeData = dialogue.NodeLinks.First(); //Entrypoint node
+        ProceedToNarrative(narrativeData.TargetNodeGUID);
+    }
 
-        public void Start()
-        {
-            var narrativeData = dialogue.NodeLinks.First(); //Entrypoint node
-            ProceedToNarrative(narrativeData.TargetNodeGUID);
-        }
-
-        private void ProceedToNarrative(string narrativeDataGUID)
+    private void ProceedToNarrative(string narrativeDataGUID)
         {
             var text = dialogue.DialogueNodeData.Find(x => x.NodeGUID == narrativeDataGUID).DialogueText;
             var choices = dialogue.NodeLinks.Where(x => x.BaseNodeGUID == narrativeDataGUID);
@@ -31,11 +31,14 @@ using Subtegral.DialogueSystem.DataContainers;
                 Destroy(buttons[i].gameObject);
             }
 
+            int j = 0;
             foreach (var choice in choices)
             {
                 var button = Instantiate(choicePrefab, buttonContainer);
                 button.GetComponentInChildren<Text>().text = ProcessProperties(choice.PortName);
+                button.transform.localPosition = new Vector3(-200 + (j * 400), -110);
                 button.onClick.AddListener(() => ProceedToNarrative(choice.TargetNodeGUID));
+                j++;
             }
         }
 

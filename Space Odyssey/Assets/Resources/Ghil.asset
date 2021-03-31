@@ -19,12 +19,18 @@ MonoBehaviour:
   - BaseNodeGUID: 33d6842b-2240-4055-a072-d93ad3b07af0
     PortName: J'ai besoin d'info
     TargetNodeGUID: 8c0fd7d5-0ad5-47dc-a35c-444be01178a7
+  - BaseNodeGUID: 33d6842b-2240-4055-a072-d93ad3b07af0
+    PortName: En rien, merci
+    TargetNodeGUID: ca8cfb28-32e9-486c-bf1b-689f1f3ea5d2
   DialogueNodeData:
-  - NodeGUID: 33d6842b-2240-4055-a072-d93ad3b07af0
-    DialogueText: Bonjour et bienvenue, en quoi puis-je vous aider ?
-    Position: {x: 300, y: 192}
   - NodeGUID: 8c0fd7d5-0ad5-47dc-a35c-444be01178a7
     DialogueText: Tenez ! Voici vos info
-    Position: {x: 814, y: 248.00002}
+    Position: {x: 676, y: 90}
+  - NodeGUID: 33d6842b-2240-4055-a072-d93ad3b07af0
+    DialogueText: Bonjour et bienvenue, en quoi puis-je vous aider ?
+    Position: {x: 227.33333, y: 200.66667}
+  - NodeGUID: ca8cfb28-32e9-486c-bf1b-689f1f3ea5d2
+    DialogueText: "Tr\xE8s bien, au revoir"
+    Position: {x: 674, y: 302}
   ExposedProperties: []
   CommentBlockData: []
