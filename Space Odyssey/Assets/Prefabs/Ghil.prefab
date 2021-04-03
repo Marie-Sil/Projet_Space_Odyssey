@@ -8,8 +8,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 517156502060520609}
+  - component: {fileID: 8075192605249988313}
   - component: {fileID: 8962822161610745514}
+  - component: {fileID: 8680788748456923281}
   - component: {fileID: 3397034701029972657}
   m_Layer: 5
   m_Name: Ghil
@@ -18,20 +19,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &517156502060520609
-Transform:
+--- !u!224 &8075192605249988313
+RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7922417344208048282}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -334, y: -5, z: 1}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -2}
+  m_LocalScale: {x: 3.4995975, y: 3.324688, z: 3.4995975}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 109, y: 100}
+  m_SizeDelta: {x: 1, y: 1}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &8962822161610745514
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45,6 +51,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterImage: {fileID: 21300000, guid: 49f88b14e1e960e43bbf1afd22a554c4, type: 3}
+  characterName: 
+  nameBox: {fileID: 0}
+--- !u!222 &8680788748456923281
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7922417344208048282}
+  m_CullTransparentMesh: 1
 --- !u!212 &3397034701029972657
 SpriteRenderer:
   m_ObjectHideFlags: 0
