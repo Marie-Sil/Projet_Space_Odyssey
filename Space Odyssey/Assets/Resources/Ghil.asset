@@ -17,77 +17,20 @@ MonoBehaviour:
     PortName: Next
     TargetNodeGUID: 33d6842b-2240-4055-a072-d93ad3b07af0
   - BaseNodeGUID: 33d6842b-2240-4055-a072-d93ad3b07af0
-    PortName: J'aimerais avoir des infos sur cette station
+    PortName: J'ai besoin d'info
     TargetNodeGUID: 8c0fd7d5-0ad5-47dc-a35c-444be01178a7
   - BaseNodeGUID: 33d6842b-2240-4055-a072-d93ad3b07af0
-    PortName: "J'aimerais faire r\xE9pararer mon vaisseau"
+    PortName: En rien, merci
     TargetNodeGUID: ca8cfb28-32e9-486c-bf1b-689f1f3ea5d2
-  - BaseNodeGUID: 8c0fd7d5-0ad5-47dc-a35c-444be01178a7
-    PortName: "Je suis \xE0 la recherche d'un groupe de pirates arborant un soleil
-      avec une t\xEAte de lion, est-ce que cela vous dit quelque chose ?"
-    TargetNodeGUID: a704a240-109e-4e87-99f3-a0c065757f6c
-  - BaseNodeGUID: 8c0fd7d5-0ad5-47dc-a35c-444be01178a7
-    PortName: "Connaitriez vous un bon h\xF4tel, pas trop cher o\xF9 passer la nuit
-      ?"
-    TargetNodeGUID: cdcb4dc6-8142-4fac-99a4-59b25806ad1a
-  - BaseNodeGUID: ca8cfb28-32e9-486c-bf1b-689f1f3ea5d2
-    PortName: Rien, j'aimerais juste faire le plein de carburant en fait.
-    TargetNodeGUID: 0450680b-5fe3-465f-895a-afdf9f8e6f70
-  - BaseNodeGUID: ca8cfb28-32e9-486c-bf1b-689f1f3ea5d2
-    PortName: "Un de ses occupants \xE0 disparu"
-    TargetNodeGUID: 33991fac-43c5-48fb-bb0f-1610a49d9ee1
-  - BaseNodeGUID: 33991fac-43c5-48fb-bb0f-1610a49d9ee1
-    PortName: "Vous connaissez bien la station, est-ce qu'il y a un endroit o\xF9
-      retrouver les \xE2mes \xE9gar\xE9es ?"
-    TargetNodeGUID: ab4b109c-9c4e-4f44-b434-f14b1cf2c137
-  - BaseNodeGUID: 33991fac-43c5-48fb-bb0f-1610a49d9ee1
-    PortName: "Je suis \xE0 la recherche d'un groupe de pirates arborant un soleil
-      avec une t\xEAte de lion, est-ce que cela vous dit quelque chose ?"
-    TargetNodeGUID: 73207dae-851c-4bef-808f-1efbc2a304dd
   DialogueNodeData:
-  - NodeGUID: ca8cfb28-32e9-486c-bf1b-689f1f3ea5d2
-    DialogueText: Tu es au bon endroit voyageur ! De quoi souffre ton vaisseau ?
-    Position: {x: 1052, y: 316.66666}
-  - NodeGUID: 33d6842b-2240-4055-a072-d93ad3b07af0
-    DialogueText: "Bonjour et bienvenue dans ma boutique de r\xE9paration de vaisseau
-      spatial. Je m'appelle Ghil, que puis-je faire pour toi ?"
-    Position: {x: 200.66667, y: 198}
   - NodeGUID: 8c0fd7d5-0ad5-47dc-a35c-444be01178a7
-    DialogueText: "Bien s\xFBr ! Je t'\xE9coute, que souhaites-tu savoir ?"
-    Position: {x: 1060, y: 102}
-  - NodeGUID: a704a240-109e-4e87-99f3-a0c065757f6c
-    DialogueText: "*Mouvement de recul, h\xE9sitation* Eh bien, malheureusement \xE7a
-      ne me dit rien, mais tu devrais abandonner tes recherches, ils sont s\xFBrement
-      tr\xE8s dangereux !"
-    Position: {x: 1994.6666, y: -82.666664}
-  - NodeGUID: cdcb4dc6-8142-4fac-99a4-59b25806ad1a
-    DialogueText: Oui ! Tiens, voici une bonne adresse ! Il se trouve au niveau 1
-      de la station, je te conseille de regarder un plan pour y aller. Bon vent voyageur
-      !
-    Position: {x: 1997.3334, y: 134.66667}
-  - NodeGUID: 0450680b-5fe3-465f-895a-afdf9f8e6f70
-    DialogueText: "Tr\xE8s bien ! Rempli moi cette fiche avec les infos de ton vaisseau,
-      puis je m'occuperais du payement. *Timelapse* C'est bon pour moi, \xE0 une
-      prochaine fois voyageur !"
-    Position: {x: 1998, y: 312.66666}
-  - NodeGUID: 33991fac-43c5-48fb-bb0f-1610a49d9ee1
-    DialogueText: Quelle triste nouvelle ! Je peux faire quelque chose pour t'aider
-      ?
-    Position: {x: 1998.6666, y: 513.3334}
-  - NodeGUID: ab4b109c-9c4e-4f44-b434-f14b1cf2c137
-    DialogueText: "Il existe de nombreux recoins o\xF9 elles peuvent errer, le plus
-      sombre d'entre-eux est s\xFBrement le march\xE9 noir. Tu le trouveras en revenant
-      au Hub de ce niveau. Mais prends garde ! Des individus dangereux s'y baladent
-      !"
-    Position: {x: 3171.3333, y: 512.6667}
-  - NodeGUID: 73207dae-851c-4bef-808f-1efbc2a304dd
-    DialogueText: "*Mouvement de recul, h\xE9sitation* Eh bien, malheureusement \xE7a
-      ne me dit rien, mais tu devrais abandonner tes recherches, ils sont s\xFBrement
-      tr\xE8s dangereux !"
-    Position: {x: 3181.3333, y: 694}
-  ExposedProperties:
-  - PropertyName: New String
-    PropertyValue: New Value
-  - PropertyName: New String(1)
-    PropertyValue: New Value
+    DialogueText: Tenez ! Voici vos info
+    Position: {x: 676, y: 90}
+  - NodeGUID: 33d6842b-2240-4055-a072-d93ad3b07af0
+    DialogueText: Bonjour et bienvenue, en quoi puis-je vous aider ?
+    Position: {x: 227.33333, y: 200.66667}
+  - NodeGUID: ca8cfb28-32e9-486c-bf1b-689f1f3ea5d2
+    DialogueText: "Tr\xE8s bien, au revoir"
+    Position: {x: 674, y: 302}
+  ExposedProperties: []
   CommentBlockData: []
