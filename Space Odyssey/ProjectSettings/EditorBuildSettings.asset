@@ -8,4 +8,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/HubCentral.unity
+    guid: 08d1d4e437f8f73469337d1b5fe7b427
+  - enabled: 1
+    path: Assets/Scenes/ChezGhil.unity
+    guid: 772428f192c38a74f842b34342835ab4
   m_configObjects: {}

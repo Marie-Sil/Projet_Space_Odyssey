@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Chez Ghil.unity
+- path: Assets/Scenes/HubCentral.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

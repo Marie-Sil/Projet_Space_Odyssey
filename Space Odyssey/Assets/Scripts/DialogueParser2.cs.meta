@@ -3,7 +3,11 @@ guid: 26fc083ce007cef4489d021509372fc2
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - dialogue: {instanceID: 0}
+  - dialogueText: {instanceID: 0}
+  - choicePrefab: {instanceID: 0}
+  - buttonContainer: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

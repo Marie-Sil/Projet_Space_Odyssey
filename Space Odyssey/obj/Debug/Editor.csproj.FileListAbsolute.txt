@@ -1,0 +1,2 @@
+C:\Unity projets\Projet_Space_Odyssey\Space Odyssey\obj\Debug\Editor.csprojAssemblyReference.cache
+C:\Unity projets\Projet_Space_Odyssey\Space Odyssey\obj\Debug\Editor.csproj.CoreCompileInputs.cache
