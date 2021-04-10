@@ -31,7 +31,7 @@ public class DialogueParser2 : MonoBehaviour
                 Destroy(buttons[i].gameObject);
             }
 
-            int j = 0;
+        int j = 0;
             foreach (var choice in choices)
             {
                 var button = Instantiate(choicePrefab, buttonContainer);

@@ -17,4 +17,14 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene("ChezGhil");
     }
 
+    public void allerMarcheNoir()
+    {
+        SceneManager.LoadScene("MarcheNoir");
+    }
+
+    public void allerHubCentral()
+    {
+        SceneManager.LoadScene("HubCentral");
+    }
+
 }
