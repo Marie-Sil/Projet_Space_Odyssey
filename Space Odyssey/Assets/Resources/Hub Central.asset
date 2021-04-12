@@ -18,8 +18,7 @@ MonoBehaviour:
     TargetNodeGUID: 9c197170-3d7e-4825-9fc6-dbaa60fd88bd
   DialogueNodeData:
   - NodeGUID: 9c197170-3d7e-4825-9fc6-dbaa60fd88bd
-    DialogueText: Bienvenue sur la station ! Vous vous trouvez actuellement dans
-      le Hub Central.
+    DialogueText: "Tu te trouves dans le Hub central. O\xF9 souhaites-tu aller ?"
     Position: {x: 264, y: 194}
   ExposedProperties: []
   CommentBlockData: []

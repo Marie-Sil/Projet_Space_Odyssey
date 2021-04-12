@@ -16,9 +16,82 @@ MonoBehaviour:
   - BaseNodeGUID: bcbe3754-72fc-4b7c-9529-5e80c6fd4901
     PortName: Next
     TargetNodeGUID: af8ebfb7-4fb9-4e63-9288-3a8f55822b97
+  - BaseNodeGUID: af8ebfb7-4fb9-4e63-9288-3a8f55822b97
+    PortName: "Je suis \xE0 la recherche de mon chat, vous l'avez vu ?"
+    TargetNodeGUID: 5c1e0667-6790-4435-937f-b6411a1c4090
+  - BaseNodeGUID: af8ebfb7-4fb9-4e63-9288-3a8f55822b97
+    PortName: "Je suis venu vous p\xE9ter la gueule."
+    TargetNodeGUID: 35d228e3-be82-4d93-b9bb-b8c6fa80cfed
+  - BaseNodeGUID: 5c1e0667-6790-4435-937f-b6411a1c4090
+    PortName: "Tu coop\xE8re et leur donne tout ton argent."
+    TargetNodeGUID: f453b334-1136-4ffe-8cf8-922475e4a910
+  - BaseNodeGUID: 5c1e0667-6790-4435-937f-b6411a1c4090
+    PortName: Tu te mets en position pour te battre.
+    TargetNodeGUID: fcf0b6fc-1635-45e4-8f6f-c3b9421b9fc2
+  - BaseNodeGUID: 35d228e3-be82-4d93-b9bb-b8c6fa80cfed
+    PortName: Tu bloques son coup.
+    TargetNodeGUID: 1a06110c-2dc2-4c66-8a20-e824f12c9750
+  - BaseNodeGUID: 35d228e3-be82-4d93-b9bb-b8c6fa80cfed
+    PortName: Tu esquives.
+    TargetNodeGUID: 5d99a013-c28d-42ed-9f04-b7ae8ad3bbcf
+  - BaseNodeGUID: 5d99a013-c28d-42ed-9f04-b7ae8ad3bbcf
+    PortName: "Tu attrapes le couteau qui est \xE0 ta ceinture."
+    TargetNodeGUID: 5bd46080-e4eb-450f-a877-51ac12d3941c
+  - BaseNodeGUID: fcf0b6fc-1635-45e4-8f6f-c3b9421b9fc2
+    PortName: Tu passes ta main dans ta poche.
+    TargetNodeGUID: 79461d1c-9a32-4496-ab5e-d2253b3a82fa
+  - BaseNodeGUID: 5d99a013-c28d-42ed-9f04-b7ae8ad3bbcf
+    PortName: "Tu envoie \xE0 ton tour, ton poing vers son visage. "
+    TargetNodeGUID: 61441cf3-0db8-4964-86be-7b0172f4c87c
+  - BaseNodeGUID: fcf0b6fc-1635-45e4-8f6f-c3b9421b9fc2
+    PortName: "Tu d\xE9cides de te rendre."
+    TargetNodeGUID: 7db34e67-7068-4479-b0b9-3ab75bb17178
   DialogueNodeData:
   - NodeGUID: af8ebfb7-4fb9-4e63-9288-3a8f55822b97
-    DialogueText: "Bienvenue au march\xE9 noir."
+    DialogueText: ' Eh petit, qu''est-ce que tu fais ici ? Tu as perdu tes parents
+      ? *Rires*'
     Position: {x: 270.66666, y: 194.66667}
+  - NodeGUID: 5c1e0667-6790-4435-937f-b6411a1c4090
+    DialogueText: 'Oh c''est mignon, il cherche son chat ! Non, on l''a pas vu. Par
+      contre, ce que je vois c''est que tu vas nous filer ton fric tout de suite
+      ! '
+    Position: {x: 820, y: 6.666666}
+  - NodeGUID: 35d228e3-be82-4d93-b9bb-b8c6fa80cfed
+    DialogueText: Ah ouais ? C'est ce qu'on va voir !  *Il envoie son poing vers
+      ton visage*
+    Position: {x: 822, y: 404.66666}
+  - NodeGUID: 1a06110c-2dc2-4c66-8a20-e824f12c9750
+    DialogueText: "La violence du coup t'envoie au sol. Les autres en profitent,
+      te rouent de coups de pieds et te volent ton argent. Tu quittes le march\xE9
+      noir d\xE9figur\xE9, sans argent et sans Asmar."
+    Position: {x: 1396.6666, y: 551.3334}
+  - NodeGUID: 5d99a013-c28d-42ed-9f04-b7ae8ad3bbcf
+    DialogueText: "Tu te baisses et fais un pas en arri\xE8re."
+    Position: {x: 1395.3334, y: 326}
+  - NodeGUID: 5bd46080-e4eb-450f-a877-51ac12d3941c
+    DialogueText: "Ils sortent eux aussi leurs armes. Pistolets, sabres, poignards,
+      tu ne feras pas long feu face \xE0 eux. Tu pr\xE8f\xE8res fuir. Tu quittes
+      le march\xE9 noir sans Asmar."
+    Position: {x: 1844.6666, y: 258.66666}
+  - NodeGUID: fcf0b6fc-1635-45e4-8f6f-c3b9421b9fc2
+    DialogueText: "Ils rigolent et sortent leurs armes. Pistolets, sabres, poignards,
+      tu ne feras pas long feu face \xE0 eux."
+    Position: {x: 1740, y: 29.999998}
+  - NodeGUID: 61441cf3-0db8-4964-86be-7b0172f4c87c
+    DialogueText: "Il attrape son poing et t'envoie voler plus loin. Tu t'\xE9crases
+      au sol. Ils en profitent pour te tabasser et voler ton argent. Tu quittes le
+      march\xE9 noir d\xE9figur\xE9, sans argent et sans Asmar."
+    Position: {x: 1842.6666, y: 416}
+  - NodeGUID: f453b334-1136-4ffe-8cf8-922475e4a910
+    DialogueText: "Tu quittes le march\xE9 noir sans Asmar et sans argent."
+    Position: {x: 1740, y: -136.66667}
+  - NodeGUID: 7db34e67-7068-4479-b0b9-3ab75bb17178
+    DialogueText: "Tu quittes le march\xE9 noir sans Asmar et sans argent."
+    Position: {x: 2461.3333, y: -60}
+  - NodeGUID: 79461d1c-9a32-4496-ab5e-d2253b3a82fa
+    DialogueText: "Tu leur jettes une poign\xE9e de poudre violette au visage. Tu
+      profites de leur surprise, pour arracher le trousseau de cl\xE9s \xE0 la ceinture
+      du chef. Et tu finis par te barrer en courant."
+    Position: {x: 2460.6667, y: 121.333336}
   ExposedProperties: []
   CommentBlockData: []
