@@ -782,6 +782,10 @@ MonoBehaviour:
   dialogueText: {fileID: 1957343693}
   choicePrefab: {fileID: 5895109331455870105, guid: 0b00997fc53d176458ce5581d90f9863, type: 3}
   buttonContainer: {fileID: 272022614}
+  goodAnswer: "Il existe de nombreux recoins o\xF9 elles peuvent errer, le plus sombre
+    d'entre-eux est s\xFBrement le march\xE9 noir. Tu le trouveras en revenant au
+    Hub de ce niveau. Mais prends garde ! Des individus dangereux s'y baladent !"
+  nameDoor: Porte Marche Noir
 --- !u!224 &1840343309 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5120492296961910229, guid: 2ad4e4a0d8f424d429fd7813c759db5b, type: 3}

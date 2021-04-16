@@ -794,6 +794,9 @@ MonoBehaviour:
   dialogueText: {fileID: 1607944875}
   choicePrefab: {fileID: 5895109331455870105, guid: 0b00997fc53d176458ce5581d90f9863, type: 3}
   buttonContainer: {fileID: 1236198492}
+  goodAnswer: "Tu te trouves actuellement sur le quai de d\xE9barquement de cette
+    station, bien d\xE9termin\xE9 \xE0 retrouver ton ami !"
+  nameDoor: Porte Chez Ghil
 --- !u!1 &2145945814
 GameObject:
   m_ObjectHideFlags: 0

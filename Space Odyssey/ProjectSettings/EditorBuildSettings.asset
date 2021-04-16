@@ -14,4 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ChezGhil.unity
     guid: 772428f192c38a74f842b34342835ab4
+  - enabled: 1
+    path: Assets/Scenes/QuaiDebarquement.unity
+    guid: 3c0b33d834c129c498e37f4e60ec01e0
+  - enabled: 1
+    path: Assets/Scenes/Entrepot.unity
+    guid: f11b74bcb1d709d4fb6c8199a977cb18
   m_configObjects: {}

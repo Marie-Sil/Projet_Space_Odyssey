@@ -6,10 +6,10 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+
     // Start is called before the first frame update
     void Start()
     {
-        
     }
 
     public void allerChezGhil()
@@ -25,6 +25,11 @@ public class GameManager : MonoBehaviour
     public void allerHubCentral()
     {
         SceneManager.LoadScene("HubCentral");
+    }
+
+    public void allerEntrepot()
+    {
+        SceneManager.LoadScene("Entrepot");
     }
 
 }

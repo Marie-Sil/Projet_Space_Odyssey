@@ -769,6 +769,10 @@ MonoBehaviour:
   dialogueText: {fileID: 990268351}
   choicePrefab: {fileID: 5895109331455870105, guid: 0b00997fc53d176458ce5581d90f9863, type: 3}
   buttonContainer: {fileID: 991472716}
+  goodAnswer: "Tu leur jettes une poign\xE9e de poudre violette au visage. Tu profites
+    de leur surprise, pour arracher le trousseau de cl\xE9s \xE0 la ceinture du chef.
+    Et tu finis par te barrer en courant."
+  nameDoor: Porte Entrepot
 --- !u!1001 &2052246223
 PrefabInstance:
   m_ObjectHideFlags: 0
