@@ -58,13 +58,13 @@
   <ItemGroup>
     <Compile Include="Assets\NodeBasedDialogueSystem\Samples\DialogueSystemDemo\DialogueParser.cs" />
     <Compile Include="Assets\Scripts\Character.cs" />
-    <Compile Include="Assets\Scripts\ChoiceButton.cs" />
+    <Compile Include="Assets\Scripts\Inutile\ChoiceButton.cs" />
     <Compile Include="Assets\Scripts\Unblock.cs" />
-    <Compile Include="Assets\Scripts\DialogueParser.cs" />
+    <Compile Include="Assets\Scripts\Inutile\DialogueParser.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\Inutile\PopUp.cs" />
     <Compile Include="Assets\Scripts\DialogueParser2.cs" />
-    <Compile Include="Assets\Scripts\DialogueManager.cs" />
-    <Compile Include="Assets\Scripts\PopUp.cs" />
+    <Compile Include="Assets\Scripts\Inutile\DialogueManager.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
