@@ -1,3 +1,4 @@
-Porte Marche Noir;lock
+Porte Marche Noir;unlock
 Porte Chez Ghil;unlock
-Porte Entrepot;lock
+Porte Entrepot;unlock
+Message victoire;unlock

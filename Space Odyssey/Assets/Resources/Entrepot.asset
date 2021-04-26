@@ -16,9 +16,32 @@ MonoBehaviour:
   - BaseNodeGUID: a144dde4-8dbd-4114-8d7b-498ff8e6f675
     PortName: Next
     TargetNodeGUID: 7e2ab23a-82a0-4a14-b216-af014888d146
+  - BaseNodeGUID: 7e2ab23a-82a0-4a14-b216-af014888d146
+    PortName: "J'aurais peut-\xEAtre d\xFB..."
+    TargetNodeGUID: 248d949d-c79c-4a4a-bd42-7e4d7397f067
+  - BaseNodeGUID: 7e2ab23a-82a0-4a14-b216-af014888d146
+    PortName: "Moi aussi, \xE7a me fait plaisir de te voir !"
+    TargetNodeGUID: ed422a94-9243-4daa-afb7-666fabcb1bd8
+  - BaseNodeGUID: 248d949d-c79c-4a4a-bd42-7e4d7397f067
+    PortName: Tu as raison, filons d'ici avant que les pirates ne reviennent !
+    TargetNodeGUID: 53df27c0-2f12-4a85-af51-99d04d90e7aa
+  - BaseNodeGUID: ed422a94-9243-4daa-afb7-666fabcb1bd8
+    PortName: Tu as raison, filons d'ici avant que les pirates ne reviennent !
+    TargetNodeGUID: 53df27c0-2f12-4a85-af51-99d04d90e7aa
   DialogueNodeData:
   - NodeGUID: 7e2ab23a-82a0-4a14-b216-af014888d146
-    DialogueText: "Bravo tu as retrouv\xE9 Asmar !"
+    DialogueText: "Te voila enfin ! Tu en as mis du temps ! J'ai failli m'inqui\xE9ter
+      que tu me laisses avec ses brutes."
     Position: {x: 255.33333, y: 198.66667}
+  - NodeGUID: 248d949d-c79c-4a4a-bd42-7e4d7397f067
+    DialogueText: "Jamais tu ne pourrais te passer de ton g\xE9nialissime assistant.
+      Enfin, il est temps d'y aller."
+    Position: {x: 966.6667, y: 107.99999}
+  - NodeGUID: ed422a94-9243-4daa-afb7-666fabcb1bd8
+    DialogueText: Pas trop de niaiserie je te prie, il est temps d'y aller.
+    Position: {x: 1106, y: 302.66666}
+  - NodeGUID: 53df27c0-2f12-4a85-af51-99d04d90e7aa
+    DialogueText: J'ai toujours raison
+    Position: {x: 1768, y: 198.66667}
   ExposedProperties: []
   CommentBlockData: []

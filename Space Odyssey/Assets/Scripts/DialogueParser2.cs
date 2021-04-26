@@ -7,6 +7,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using Subtegral.DialogueSystem.DataContainers;
 using System.IO;
+using UnityEditor;
 
 public class DialogueParser2 : MonoBehaviour
 {
@@ -16,9 +17,11 @@ public class DialogueParser2 : MonoBehaviour
     [SerializeField] public Transform buttonContainer;
     [SerializeField] public string goodAnswer;
     [SerializeField] public string nameDoor;
+    private string firstText;
 
     public void Start()
     {
+        firstText = "Tu te trouves actuellement sur le quai de débarquement de cette station, bien déterminé à retrouver ton ami ! Clic sur la porte au fond pour accéder au Hub.";
         var narrativeData = dialogue.NodeLinks.First(); //Entrypoint node
         ProceedToNarrative(narrativeData.TargetNodeGUID);
     }
@@ -34,7 +37,9 @@ public class DialogueParser2 : MonoBehaviour
 
             // Vérification si le texte est le texte permettant de débloquer la suite
             if (text == goodAnswer)
-                ChangeState();
+            {
+                ChangeState(text);
+            }
 
             // Destruction des anciens boutons
             var buttons = buttonContainer.GetComponentsInChildren<Button>();
@@ -68,7 +73,7 @@ public class DialogueParser2 : MonoBehaviour
             return text;
         }
 
-    private void ChangeState()
+    private void ChangeState(string text)
     {
         List<Unblock.FileLine> doors = new List<Unblock.FileLine>();
 
@@ -83,7 +88,7 @@ public class DialogueParser2 : MonoBehaviour
         {
             foreach (Unblock.FileLine door in doors)
             {
-                if (door.nameDoor == nameDoor)
+                if (door.nameDoor == nameDoor || (door.state == "unlock" && text != firstText))
                 {
                     line = door.nameDoor + ";unlock";
                     writer.WriteLine(line);
@@ -97,5 +102,6 @@ public class DialogueParser2 : MonoBehaviour
             writer.Close();
         }
     }
+
 }
 

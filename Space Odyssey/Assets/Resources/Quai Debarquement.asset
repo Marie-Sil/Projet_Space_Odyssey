@@ -19,36 +19,37 @@ MonoBehaviour:
   - BaseNodeGUID: 2388c37b-98ab-41d4-9938-0eb61ce39a16
     PortName: Continuer
     TargetNodeGUID: 550c8d60-8e7d-4c2b-a82a-3a148e94ce64
-  - BaseNodeGUID: 550c8d60-8e7d-4c2b-a82a-3a148e94ce64
-    PortName: Retour
-    TargetNodeGUID: 2388c37b-98ab-41d4-9938-0eb61ce39a16
-  - BaseNodeGUID: 550c8d60-8e7d-4c2b-a82a-3a148e94ce64
-    PortName: Continuer
-    TargetNodeGUID: bdd6a187-ba45-46df-9f8b-1792aba3663a
   - BaseNodeGUID: bdd6a187-ba45-46df-9f8b-1792aba3663a
     PortName: Continuer
     TargetNodeGUID: 9bc19bbc-56ce-47d6-a666-c41d6f8a15ba
   - BaseNodeGUID: bdd6a187-ba45-46df-9f8b-1792aba3663a
     PortName: Retour
     TargetNodeGUID: 2388c37b-98ab-41d4-9938-0eb61ce39a16
+  - BaseNodeGUID: 550c8d60-8e7d-4c2b-a82a-3a148e94ce64
+    PortName: Continuer
+    TargetNodeGUID: bdd6a187-ba45-46df-9f8b-1792aba3663a
+  - BaseNodeGUID: 550c8d60-8e7d-4c2b-a82a-3a148e94ce64
+    PortName: Retour
+    TargetNodeGUID: 2388c37b-98ab-41d4-9938-0eb61ce39a16
   DialogueNodeData:
+  - NodeGUID: 9bc19bbc-56ce-47d6-a666-c41d6f8a15ba
+    DialogueText: "Tu te trouves actuellement sur le quai de d\xE9barquement de cette
+      station, bien d\xE9termin\xE9 \xE0 retrouver ton ami ! Clic sur la porte au
+      fond pour acc\xE9der au Hub."
+    Position: {x: 3897.3333, y: 190}
   - NodeGUID: 2388c37b-98ab-41d4-9938-0eb61ce39a16
     DialogueText: "Bienvenue en l\u2019an 2999 du calendrier universel. Tu vas atterrir
       sur une grande station situ\xE9e au d\xE9tour d\u2019une galaxie. Elle fait
       partie d\u2019une zone d\u2019\xE9changes neutre, Port-Libre. Des cr\xE9atures
       de l\u2019univers entier s\u2019y c\xF4toient, \xE9changent, voyagent, travaillent."
-    Position: {x: 271.33334, y: 199.33334}
-  - NodeGUID: 550c8d60-8e7d-4c2b-a82a-3a148e94ce64
-    DialogueText: "Depuis plusieurs ann\xE9es, tu explores l'univers accompagn\xE9
-      de ton fid\xE8le compagnon, un chat ail\xE9 du nom de Asmar."
-    Position: {x: 1914, y: 198.66667}
-  - NodeGUID: 9bc19bbc-56ce-47d6-a666-c41d6f8a15ba
-    DialogueText: "Tu te trouves actuellement sur le quai de d\xE9barquement de cette
-      station, bien d\xE9termin\xE9 \xE0 retrouver ton ami !"
-    Position: {x: 3897.3333, y: 190}
+    Position: {x: 215.33333, y: 117.99999}
   - NodeGUID: bdd6a187-ba45-46df-9f8b-1792aba3663a
     DialogueText: "Malheureusement, des pirates de l'espace l'ont captur\xE9 pour
       le vendre. Tu as finis par retrouver leurs traces sur la station M01-AST2."
-    Position: {x: 2880.6667, y: 201.33334}
+    Position: {x: 2884.6667, y: 134.66667}
+  - NodeGUID: 550c8d60-8e7d-4c2b-a82a-3a148e94ce64
+    DialogueText: "Depuis plusieurs ann\xE9es, tu explores l'univers accompagn\xE9
+      de ton fid\xE8le compagnon, un chat ail\xE9 du nom de Asmar."
+    Position: {x: 1911.3334, y: 210.66667}
   ExposedProperties: []
   CommentBlockData: []
